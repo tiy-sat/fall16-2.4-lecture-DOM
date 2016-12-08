@@ -10,12 +10,24 @@
     <!-- Should console log out `myName` var -->
     <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors -->
     <button class="button--name"
-            data-js="name">
-      Tell me my name
+            data-js="buttonName">
+      Santa
     </button>
+
+    <button class="button--name"
+            data-js="buttonName">
+      Saint Nick
+    </button>
+
+    <!-- Want replace the content of this element with my name -->
+    <h2 data-js="outputName"> MY NAME:  </h2>
+
     <!-- Should console log out whether or not the heat is on? -->
-    <button data-js="heat?"> 
+    <button data-js="heat?">
       Is the heat on?
     </button>
+
+    <!-- Replace the text inside of this element/node with the boolean of heatOn? -->
+    <h2 data-js="outputHeat"> Is the heat on? </h2>
   </body>
 </html>

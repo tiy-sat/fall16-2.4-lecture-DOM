@@ -13,6 +13,8 @@
 
 - Callback function - Are when we pass a function as an argument
 
+- Text content - is the reference of text inside of our content box (think box model)
+  - https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
 
 ## References
 - [List of all available events](https://developer.mozilla.org/en-US/docs/Web/Events)
